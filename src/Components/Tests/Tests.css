@@ -1,6 +1,6 @@
 .main__wrapper {
     min-height: 91.5vh;
-    background-image: linear-gradient(rgba(63, 81, 181, 1), rgba(0, 0, 0, 0.5)),url('./photo_74954_20160905.jpg');
+    background-image: linear-gradient(rgba(63, 81, 181, 1), rgba(0, 0, 0, 0.5)), url('./photo_74954_20160905.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -9,7 +9,7 @@
 
 .background {
     min-height: 91.5vh;
-    background-image: linear-gradient(rgba(63, 81, 181, 1), rgba(0, 0, 0, 0.5)),url('./photo_74954_20160905.jpg');
+    background-image: linear-gradient(rgba(63, 81, 181, 1), rgba(0, 0, 0, 0.5)), url('./photo_74954_20160905.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -25,14 +25,14 @@
 .section {
     width: 100%;
     margin: auto;
-    padding: 1rem;
+    padding: .5rem 1rem 0 1rem;
 }
 
 /*.title {*/
-    /*color: #ff5722;*/
-    /*text-align: center;*/
-    /*margin-bottom: 1rem;*/
-    /*font-size: 2rem*/
+/*color: #ff5722;*/
+/*text-align: center;*/
+/*margin-bottom: 1rem;*/
+/*font-size: 2rem*/
 /*}*/
 
 .sub__title {
@@ -88,9 +88,9 @@
 }
 
 .main__span:hover {
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.39);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.39);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.39);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.39);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.39);
 }
 
 .mod_1 {

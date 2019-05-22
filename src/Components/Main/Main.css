@@ -1,0 +1,199 @@
+.main__wrapper {
+    min-height: 131vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('./photo_74954_20160905.jpg');
+    background-attachment: fixed;
+}
+
+.background {
+    min-height: 91.5vh;
+    background-image: linear-gradient(rgba(63, 81, 181, 1), rgba(0, 0, 0, 0.5)),url('./photo_74954_20160905.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main__container {
+    min-width: 320px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section {
+    width: 100%;
+    margin: auto;
+    /* background-color: #fff; */
+    padding: 1rem;
+}
+
+.title {
+    color: #ff5722;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2rem
+}
+
+.sub__title {
+    text-align: justify;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.section__main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main__box {
+    flex-basis: 100%;
+    margin: 6rem 0;
+}
+
+.spanInCircle {
+    color: #fff;
+    font-size: 1.12rem;
+    font-weight: 700;
+}
+
+.box__task {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    border: 0.5rem solid #8ac24a;
+    margin: auto;
+    position: relative;
+}
+
+.box__task_0 {
+    border: 0.5rem solid #ffc007;
+}
+
+.box__task_1 {
+    border: 0.5rem solid #ec1c24;
+}
+
+.main__span {
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: #f0f1f1;
+    position: absolute;
+    text-align: center;
+}
+
+.mod_1 {
+    top: 100%;
+    left: 160%;
+    cursor: pointer;
+}
+
+.mod_2 {
+    top: 100%;
+    right: 100%;
+    cursor: pointer;
+}
+
+.mod_3 {
+    bottom: 110%;
+    left: 130%;
+    cursor: pointer;
+}
+
+.mod_4 {
+    bottom: 100%;
+    right: 100%;
+    cursor: pointer;
+}
+
+.mod_5 {
+    top: 130%;
+    left: 15%;
+    cursor: pointer;
+}
+
+.mod_6 {
+    bottom: 130%;
+    left: 0;
+    cursor: pointer;
+}
+
+.mod_7 {
+    top: 25%;
+    right: 130%;
+    cursor: pointer;
+}
+
+.mod_8 {
+    top: -5%;
+    left: 164%;
+    cursor: pointer;
+}
+
+.mod1 {
+    top: 75%;
+    left: 120%;
+    cursor: pointer;
+}
+
+.mod2 {
+    top: 75%;
+    right: 120%;
+    cursor: pointer;
+}
+
+.mod3 {
+    bottom: 75%;
+    left: 120%;
+    cursor: pointer;
+}
+
+.mod4 {
+    bottom: 75%;
+    right: 120%;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .sub__title {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .main__wrapper {
+        min-height: 91.5vh;
+    }
+
+    .section {
+        padding: 2rem 4rem;
+        width: 90%;
+    }
+
+    .sub__title {
+        width: 40%;
+    }
+
+    .section__main {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main__box {
+        flex-basis: 30%;
+        margin-top: 5rem;
+    }
+
+    .main__box:nth-child(2) {
+        margin-top: 21rem;
+        margin-bottom: 5rem;
+    }
+
+    .main__span {
+        padding: 1rem;
+        border-radius: 50%;
+    }
+}

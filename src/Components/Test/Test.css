@@ -1,0 +1,121 @@
+body {
+    min-height: 91.5vh;
+    background-image: linear-gradient(rgba(63, 81, 181, 1), rgba(0, 0, 0, 0.5)),url('./photo_74954_20160905.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.test__wrapper {
+    padding-top: 1.5rem;
+    display: flex;
+}
+
+.test__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.test__module {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 1.35rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 0 0.5rem;
+    padding: 0 1rem;
+}
+
+.test__testname {
+    font-size: 1.15rem;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 0 1rem;
+    padding: 0 1rem;
+}
+
+.test__cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 92%;
+    justify-content: center;
+}
+
+.test__buttons {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.test__btn {
+    width: 92%;
+    max-width: 18.6rem;
+    margin-left:0;
+    margin-right:1rem;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background-color: #526db5;
+    color: #fff;
+    font-size: 3rem;
+    line-height: 4.2rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    text-decoration: none;
+}
+
+.test__btn:hover{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.39);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.39);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.39);
+}
+
+.test__notfound {
+    display: inline-block;
+    max-width: 18px;
+    padding: 1.5rem;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #000;
+    background-color: #ddd;
+    margin: auto;
+}
+
+
+@media (min-width: 768px) {
+    .test__module {
+        font-size: 2rem;
+    }
+
+    .test__testname {
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
+    }
+
+    .test__cards {
+        width: 92%;
+        margin: 0 auto 1.5rem;
+        justify-content: space-between;
+    }
+
+    .test__btn {
+        /*margin: auto;*/
+    }
+}
+
+@media (min-width: 1024px) {
+    .test__content {
+        display: flex;
+    }
+
+    .test__cards {
+        justify-content: space-around;
+    }
+
+    .test__btn {
+        margin-bottom: 1.5rem;
+    }
+}

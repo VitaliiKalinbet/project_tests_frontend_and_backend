@@ -1,0 +1,72 @@
+.paddings:nth-child(2n+1) {
+    background-color: #c5ddff;
+}
+.robotoGray {
+    color: #414042;
+    padding: 0.25rem;
+}
+.robotoGray:first-child{
+    text-decoration: underline;
+}
+.robotoOrange,.robotoGray{
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+}
+.red {
+    color: #d80027;
+}
+.yellow {
+    color: #dae727;
+}
+.green {
+    color: #2bd900;
+}
+.svg {
+    margin-left: 1.6rem;
+    width: 10px;
+    height: 10px;
+}
+@media (min-width: 450px){
+.robotoGray {
+    padding: 0.3rem;
+}   
+.robotoGray{
+    font-size: 1rem;
+    }
+    
+}
+.flex {
+    margin-left: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+@media (min-width: 768){
+.robotoGray {
+      padding: 0.87rem;
+}  
+.robotoOrange,.robotoGray{
+      font-size: 1.2rem;
+    }
+}
+.svg {
+    margin-left: 1.25rem;
+    width: 35px;
+    height: 35px;
+}
+
+@media (min-width: 1024px){
+
+.robotoGray {
+       padding: 1.25rem;
+       font-size: 1.3rem;
+    }
+
+.svg {
+   margin-left: 0.9rem;
+   width: 40px;
+   height: 40px;
+}
+
+
+}

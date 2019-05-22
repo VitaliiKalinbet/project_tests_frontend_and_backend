@@ -1,0 +1,101 @@
+.wrapper {
+    margin: auto;
+    /* box-shadow: 0px 0px 5px 5px #888888; */
+    /*-webkit-box-shadow: 7px 0px 40px -8px rgba(112,111,111,1);*/
+    /*-moz-box-shadow: 7px 0px 40px -8px rgba(112,111,111,1);*/
+    /*box-shadow: 4px 0px 30px -8px rgba(112,111,111,1);*/
+    /*margin-top: 20px;*/
+    /*max-width: 780px;*/
+}
+.container {
+    background-color: #ffffff;
+}
+.resultText {
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+    color: #3f51b5;
+    padding: 0.6rem 0 0.6rem 0.6rem;
+    text-align: center;
+}
+.robotoOrange,.robotoGray{
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.robotoOrange {
+    color: #3f51b5;
+    padding: 0.25rem;
+}
+.flex {
+    margin-left: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.svg {
+    margin-left: 1.4rem;
+    width: 35px;
+    height: 35px;
+}
+.red {
+    color: #d80027;
+}
+.yellow {
+    color: #dae727;
+}
+.green {
+    color: #2bd900;
+}
+
+table {
+    width: 100%;
+}
+
+@media (min-width: 450px){
+.resultText {
+    font-size: 1.3rem;
+    padding: 0.75rem 0 0.75rem 0.75rem;
+}
+.robotoOrange,.robotoGray{
+    font-size: 1rem;
+}
+
+}
+
+@media (min-width: 768px){
+.resultText {
+    font-size: 1.5rem;
+    padding: 1.4rem 0 1.4rem 1.4rem;
+}
+.robotoOrange,.robotoGray{
+    font-size: 1.2rem;
+}
+
+.robotoOrange {
+    padding: 0.87rem;
+}
+.svg {
+    margin-left: 1.25rem;
+    width: 35px;
+    height: 35px;
+}
+
+/* .left {
+    position: absolute;
+    left: 3%;
+} */
+
+}
+@media (min-width: 1024px){
+.resultText {
+    /*padding: 2.18rem 0 2.18rem 2.18rem;*/
+}
+.robotoOrange {
+     padding: 1.25rem;
+}
+.svg {
+    margin-left: 0.9rem;
+    width: 40px;
+    height: 40px;
+ }
+}

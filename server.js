@@ -36,10 +36,11 @@ app.use(passport.session());
 
 app.use(cors({ origin: "*" }));
 app.use("/", express.static("build"));
-app.use("/users", userRoutes);
-app.use("/modules", moduleRoutes);
-app.use("/tests", testRoutes);
-app.use("/results", resultsRoutes);
+app.use("/tests", express.static("build"));
+app.use("/api/users", userRoutes);
+app.use("/api/modules", moduleRoutes);
+app.use("/api/tests", testRoutes);
+app.use("/api/results", resultsRoutes);
 
 app.use((req, res) => res.status(404).json({ err: "404" }));
 app.use((err, req, res) => {

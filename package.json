@@ -65,7 +65,8 @@
     "webpack-manifest-plugin": "1.3.2",
     "whatwg-fetch": "2.0.3"
   },
-  "proxy": "https://student-tests.goit.co.ua/api",
+  "proxy": "https://student-tests.goit.co.ua/",
+  "homepage": "https://student-tests.goit.co.ua",
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
